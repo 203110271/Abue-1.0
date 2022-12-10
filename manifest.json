@@ -1,11 +1,11 @@
 {
-  "name": "upmh",
+  "name": "Run Abue Run",
   "short_name": "UPMH",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
   "theme_color": "#db4938",
-  "orientation": "landscape",
+  "orientation": "landscape-primary",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

@@ -1,19 +1,19 @@
-const staticDevSite = "site-v1"
+const staticDevAbue = "EQUIPO ABUE"
 const assets = [
   "index.html",
   "css/estilos.css",
   "js/nucleo.js",
-  "img/arboles.png",
+  "img/arboles.PNG",
   "img/cactus1.png",
   "img/cactus2.png",
-  "img/dino.png",
+  "img/dino.PNG",
   "img/nube.png",
   "img/suelo.png",
 ]
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevSite).then(cache => {
+    caches.open(staticDevAbue).then(cache => {
       cache.addAll(assets)
     })
   )
